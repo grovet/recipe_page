@@ -10,9 +10,8 @@ body {
 
 .content {
     background-color: white;
-    margin: 60px 10% 80px 10%;
-    padding: 0 30px 30px 30px;
-    min-width: 350px;
+    margin: 40px 8px 40px 8px;
+    padding: 0 8px 20px 8px;
     box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
     overflow: visible;
 }
@@ -37,15 +36,18 @@ h1 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 p.description {
     text-align: center;
     max-width: 400px;
     display: inline-block;
     font-size: 14px;
 }
+
 div.description {
     text-align: center;
 }
+
 #separator {
     height: 1px;
     width: 100px;
@@ -53,16 +55,18 @@ div.description {
     margin-left: auto;
     margin-right: auto;
 }
+
 .image-table {
     position: relative;
 }
+
 .image-table table {
     position: absolute;
     bottom: 0px;
     width: 100%;
     color: white;
     background-color: #6C829DC0;
-    height: 60px;
+    height: 50px;
 }
 .image-table img {
     display: block;
@@ -76,17 +80,17 @@ div.description {
     text-align: center;
     vertical-align: bottom;
     padding-bottom: 4px;
-    font-size: 16px;
+    font-size: 14px;
 }
 .image-table table td {
     text-align: center;
     vertical-align: top;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .col {
-    width: 45%;
-    margin-top: 20px;;
+    width: 100%;
+    margin-top: 20px;
 }
 
 .col h2 {
@@ -99,11 +103,6 @@ div.description {
 
 .column1 {
     display: inline-block;
-    margin-right: 10%;
-}
-
-.column2 {
-    float: right;
 }
 
 .ingredients p {
@@ -142,3 +141,39 @@ div.description {
     padding-bottom: 10px;
 }
 
+/* Desktop Styles */
+@media only screen and (min-width: 768px) {
+    .content {
+        margin: 60px 10% 80px 10%;
+        padding: 0 30px 30px 30px;
+        min-width: 350px;
+    }
+    .image-table table {
+        height: 60px;
+    }
+    .image-table table th {
+        font-size: 16px;
+    }
+    .image-table table td {
+        font-size: 14px;
+    }
+    .col {
+        width: 45%;
+    }
+    
+    .column1 {
+        margin-right: 10%;
+    }
+    
+    .column2 {
+        float: right;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .content {
+        margin-left: auto;
+        margin-right: auto;
+        width: 650px;
+    }
+}

@@ -1,0 +1,144 @@
+/* Comments in CSS */
+* {
+    overflow: auto;
+}
+
+body {
+    background-color: #8BA1BB;
+    font-family: Arial;
+}
+
+.content {
+    background-color: white;
+    margin: 60px 10% 80px 10%;
+    padding: 0 30px 30px 30px;
+    min-width: 350px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+    overflow: visible;
+}
+
+p.category {
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: -15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+div.category {
+    text-align: center;
+    overflow: visible;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p.description {
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 14px;
+}
+div.description {
+    text-align: center;
+}
+#separator {
+    height: 1px;
+    width: 100px;
+    background-color: darkgrey;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image-table {
+    position: relative;
+}
+.image-table table {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: white;
+    background-color: #6C829DC0;
+    height: 60px;
+}
+.image-table img {
+    display: block;
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: lightgrey;
+}
+.image-table table th {
+    text-align: center;
+    vertical-align: bottom;
+    padding-bottom: 4px;
+    font-size: 16px;
+}
+.image-table table td {
+    text-align: center;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+.col {
+    width: 45%;
+    margin-top: 20px;;
+}
+
+.col h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid #6C829D;
+    padding-bottom: 5px;
+}
+
+.column1 {
+    display: inline-block;
+    margin-right: 10%;
+}
+
+.column2 {
+    float: right;
+}
+
+.ingredients p {
+    text-align: center;
+    border: 1px solid lightgrey;
+    font-size: 14px;
+    padding: 8px 0px;
+    margin: 2px 0px;
+}
+
+.instructions .nums {
+    background-color: #6C829D;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 25px;
+    text-align: center;
+    height: 25px;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.instructions tr {
+    height: 50px;
+}
+
+.instructions tr td {
+    vertical-align: top;
+}
+
+.instructions .steps {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
